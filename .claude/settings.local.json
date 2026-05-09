@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npm init *)",
+      "Bash(curl *)",
+      "Bash(chmod +x \"D:/treai项目/memories/test-api.sh\")",
+      "Bash(\"D:/treai项目/memories/test-api.sh\")",
+      "Bash(chmod +x \"D:/treai项目/memories/status.sh\")",
+      "Bash(\"D:/treai项目/memories/status.sh\")",
+      "Bash(pkill -f \"node server.js\")"
+    ]
+  }
+}

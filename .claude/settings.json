@@ -1,0 +1,40 @@
+{
+  "skillOverrides": {
+    "update-config": "on",
+    "keybindings-help": "on",
+    "simplify": "on",
+    "fewer-permission-prompts": "on",
+    "loop": "on",
+    "claude-api": "on",
+    "init": "on",
+    "review": "on",
+    "security-review": "on"
+  },
+  "permissions": {
+    "allow": [
+      "Read",
+      "Edit",
+      "Write",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git branch *)",
+      "Bash(git checkout *)",
+      "Bash(git stash *)",
+      "Bash(git pull)",
+      "Bash(git fetch *)",
+      "Bash(npm run *)",
+      "Bash(npm test *)",
+      "Bash(npm install *)",
+      "Bash(npm list *)",
+      "Bash(node *)",
+      "Bash(python *)",
+      "Bash(pip install *)",
+      "Bash(pip list *)",
+      "Bash(pip show *)"
+    ],
+    "defaultMode": "default"
+  }
+}

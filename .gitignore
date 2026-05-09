@@ -1,0 +1,52 @@
+# 依赖
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# 构建产物
+dist/
+build/
+frontend/dist/
+backend/dist/
+
+# 数据库文件
+backend/database/*.db
+
+# 上传文件
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# 生产环境静态文件
+backend/public/*
+!backend/public/.gitkeep
+
+# 环境变量
+.env
+frontend/.env
+backend/.env
+
+# 日志
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 测试覆盖率
+coverage/
+.nyc_output/
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.temp
